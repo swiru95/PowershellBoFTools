@@ -19,5 +19,6 @@ while($true){
     catch{
         Write-Host "Program crushed at: " $buffer.Length
         Read-Host "End. (press key)"
+        exot
     }
 }
